@@ -1,26 +1,33 @@
-<%- include header %>
-<!-- <div class="container"> -->
+<% include header.ejs %>
     <ul class="list-group col-sm-8">
+        <li class="list-group-item">
+            <h3><a href="#">学习node.js</a></h3>
+            <p class="info">
+                <span>作者：ryuan</span>
+                <span>|</span>
+                <span>日期：2017-10-07</span>
+            </p>
+        </li>
+        <hr>
          <li class="list-group-item">
-             <h3><a href="#">学习node.js</a></h3>
-             <p class="info">
-                 <span>作者：ryuan</span>
-                 <span>|</span>
-                 <span>日期：2017-10-07</span>
-             </p>
-         </li>
-         <hr>
-          <li class="list-group-item">
-             <h3><a href="#">express+bootstrap搭建个人博客</a></h3>
-             <p class="info">
-                 <span>作者：ryuan</span>
-                 <span>|</span>
-                 <span>日期：2017-10-10</span>
-             </p>
-         </li>
-    </ul>
-    <div class="col-sm-offset-1 col-sm-3">
-        <h4>公告</h4>
-    </div>
-<!-- </div> -->
-<%- include footer %>
+            <h3><a href="#">express+bootstrap搭建个人博客</a></h3>
+            <p class="info">
+                <span>作者：ryuan</span>
+                <span>|</span>
+                <span>日期：2017-10-10</span>
+            </p>
+        </li>
+   </ul>
+   <div class="col-sm-4">
+       <ul class="list-group list-unstyled">
+           <a href="#" class="list-group-item active">
+               <h4 class="list-group-item-heading">
+                   个人资料
+               </h4>
+           </a>
+                   <li class="list-group-item"><span>博主:</span><span>ryuan</span></li>
+                   <li class="list-group-item"><span>爱好:</span><span>web开发，前端</span></li>
+                   <li class="list-group-item"><span>坐标:</span><span>广州</span></li>
+        </ul>
+   </div>
+<% include footer.ejs %>
